@@ -9,9 +9,9 @@ use PHPUnit\Framework\TestCase;
 class NorwegianBanksTest extends TestCase
 {
     private NorwegianBanks $norwegianBanks;
-    protected string $notRealAccountNumber = '1234.56.78903';
-    protected string $notRealAccountNumberWithSpaces = '1234 56 78903';
-    protected string $notRealAccountNumberUnformatted = '12345678903';
+    protected string $notRealAccountNumber = '6199.56.78909';
+    protected string $notRealAccountNumberWithSpaces = '6199 56 78909';
+    protected string $notRealAccountNumberUnformatted = '61995678909';
     protected string $accountNumberWithZeroCheckDigit = '0101.01.04900';
 
     protected array $accounts = [
@@ -30,7 +30,7 @@ class NorwegianBanksTest extends TestCase
     ];
 
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->norwegianBanks = new NorwegianBanks();
     }

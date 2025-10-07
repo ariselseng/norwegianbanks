@@ -9,13 +9,13 @@
         }
     },
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.4",
         "phpoffice/phpspreadsheet": "^1.9",
         "desarrolla2/cache": "^3.0",
-        "guzzlehttp/guzzle": "^6.5"
+        "guzzlehttp/guzzle": "^7"
     },
     "require-dev": {
-        "phpunit/phpunit": "~7.0"
+        "phpunit/phpunit": "~8.0"
     },
     "autoload-dev": {
         "psr-4": {
