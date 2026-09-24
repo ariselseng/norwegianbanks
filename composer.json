@@ -10,8 +10,7 @@
     },
     "require": {
         "php": ">=8.4",
-        "phpoffice/phpspreadsheet": "^1.9",
-        "desarrolla2/cache": "^3.0",
+        "phpoffice/phpspreadsheet": "^2.4.8 || ^3.10.8 || ^5.10",
         "guzzlehttp/guzzle": "^7"
     },
     "require-dev": {
